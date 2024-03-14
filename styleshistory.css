@@ -1,0 +1,214 @@
+body {
+  font-family: 'Avenir Next', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #4f4f4f; 
+  color: whitesmoke; 
+}
+
+
+header {
+  background-color: white;
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 100;
+  padding: 50px;
+  padding-right: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+header h5 {
+  color: black;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo-section img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+nav {
+  padding-right: 30px; 
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  padding-top: 100px; /* Adjust according to your header height */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Additional styles for the profile section */
+.profile {
+  text-align: center; 
+}
+
+.profile h1, .profile h2 {
+  font-family: 'Georgia', serif; 
+  letter-spacing: 1.5px; 
+  font-weight: 200;
+}
+
+h5 {
+  font-family: 'Avenir Next', sans-serif; 
+  font-weight: 300; 
+  font-size: 1.02em; 
+  color: whitesmoke; 
+  margin-top: 20px; 
+  margin-bottom: 10px; 
+}
+
+h2 {
+  font-family: 'Avenir Next', sans-serif; 
+  font-weight: 300; 
+  font-size: 1.02em; 
+  color: rgb(0, 0, 0); 
+  margin-top: 20px; 
+  margin-bottom: 10px; 
+}
+
+p {
+  font-family: 'Avenir Next', sans-serif; 
+  color: whitesmoke;
+  font-weight: 100; 
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  line-height: 1;
+}
+
+
+.grey-section {
+  background-color: #818181; 
+  width: fit-page;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Avenir Next', sans-serif;
+}
+
+
+.grey-text {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info {
+  margin: 10px;
+  display: ;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column img {
+  width: 120px;
+  height: auto;
+  margin-bottom: -20px;
+}
+
+.column p {
+  margin: 5px 0 0;
+}
+
+.contact-info p {
+  size: 100px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 100;
+  margin-bottom: -20px;
+}
+
+.grey-text a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.grey-text a:hover {
+  text-decoration: underline;
+}
+
+
+.header-image img {
+  width: 100vw;
+  margin-top: -40px;
+  margin-left: -5;
+  height: 380px;
+  object-fit: cover;
+}
+
+
+.header-image {
+  position: relative;
+}
+
+.header-image h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 100;
+  color: #fff;
+  font-size: 24px;
+  max-width: 80%;
+  padding: 10px;
+}
+
+
+footer {
+  background-color: #4f4f4f;
+  font-family: 'Avenir Next', sans-serif;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer p {
+    margin: 0;
+    color: #ffffff;
+}
